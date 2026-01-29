@@ -42,4 +42,4 @@ To calculate the true "Bottom Line," I implemented several custom measures.
 
 **Net Profit Calculation:**
 ```dax
-Net Profit = [Total Revenue] - [Total COGS] - [Total Labor]
+Net Profit = [Total Revenue] - [Total COGS] - [Total Labor]-[VAT to be paid]-[CIT]
