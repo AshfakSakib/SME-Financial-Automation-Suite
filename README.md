@@ -1,4 +1,4 @@
-# SME Financial Automation Suite (Restora Kebab)
+# SME Financial Automation Suite
 
 ## 📌 Project Overview
 This project is a full-stack financial reporting solution designed for **Restora Kebab**, a retail food service business in Poland. The goal was to replace manual paper-based accounting with an automated **Business Intelligence (BI)** pipeline.
