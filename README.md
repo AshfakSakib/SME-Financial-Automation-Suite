@@ -43,7 +43,11 @@ To calculate the true "Bottom Line," I implemented several custom measures.
 **Net Profit Calculation:**
 ```dax
 EBITA = [Total Revenue] - [Total COGS] - [Total Labor]
+
 Profit Before Tax = [EBITA]-[VAT]
+
 CIT = ([Profit Before TAX] * 0.12) - 300
+
 Net Profit=[Profit Before Tax]-[CIT]
+
 Net Profit Margin = DIVIDE([Net Profit], [Total Revenue], 0)
