@@ -44,9 +44,9 @@ To calculate the true "Bottom Line," I implemented several custom measures.
 ```dax
 EBITA = [Total Revenue] - [Total COGS] - [Total Labor]
 
-Profit Before Tax = [EBITA]-[VAT]
+Profit Before Tax = [EBITA] (in this case)
 
-CIT = ([Profit Before TAX] * 0.12) - 300
+CIT = ([Profit Before TAX] * 0.09)
 
 Net Profit=[Profit Before Tax]-[CIT]
 
